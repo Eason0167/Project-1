@@ -1,0 +1,159 @@
+/*ferrari css*/
+body {
+background-image: url('cw/backgrounds/ferrari.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:1550px 770px;
+  position:center;
+}
+
+h1{
+	text-align:center;
+	top:15px;
+	left:525px;
+	color:white;
+}
+
+/*green stripe*/
+div.z{
+	position:absolute;
+	left:600px;
+	top:20px;
+	width:10px;
+	height:20px;
+	background:green;
+	transition:2s;
+	opacity:0.4;
+}
+div.z:hover{
+	width:340px;
+}
+/*white stripe*/
+div.y{
+	position:absolute;
+	left:600px;
+	top:30px;
+	width:10px;
+	height:20px;
+	background:white;
+	transition:2s;
+	opacity:0.4;
+}
+div.y:hover{
+	width:340px;
+}
+/*red stripe*/
+div.x{
+	position:absolute;
+	left:600px;
+	top:40px;
+	width:10px;
+	height:20px;
+	background:red;
+	transition:2s;
+	opacity:0.4;
+}
+div.x:hover{
+	width:340px;
+}
+
+/*gallery button*/
+div.btn{
+	position:absolute;
+	left:1200px;
+	top:2px;
+	color:white;
+}
+
+/*812 gts*/
+div.gt{
+	position:relative;
+	left:35px;
+	top:25px;
+}
+div.g{
+	position:relative;
+	left:75px;
+	top:10px;
+	color:white;
+}
+
+/*spider*/
+div.spider{
+	position:relative;
+	left:35px;
+	bottom:-85px;
+}
+div.spi{
+	position:relative;
+	left:75px;
+	bottom:-75px;
+	color:white;
+}
+
+/*monza sp1*/
+div.monza{
+	position:absolute;
+	left:1200px;
+	top:100px;
+}
+div.mon{
+	position:absolute;
+	right:75px;
+	top:245px;
+	color:white;
+}
+
+/*sf90 stradale*/
+div.sf{
+	position:absolute;
+	right:20px;
+	bottom:-15px;
+}
+div.s{
+	position:absolute;
+	right:90px;
+	bottom:-250px;
+	color:white;
+}
+
+/*bottom copyright*/
+div.down{
+	opacity:0.6;
+	position:absolute;
+	bottom:-400px;
+	width:100%;
+	height:30px;
+	background-color:#D5CED6;
+}
+div.copy{
+	text-align:center;
+}
+
+/*top nav*/
+ul.a{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #BAB6BC;
+  top:20px;
+  position:absolute;
+  width:300px;
+}
+li.a1 {
+  float: left;
+}
+li.a1 {
+  display: block;
+  color: black;
+  padding: 10px;
+  margin:5px;
+}
+li.a1:hover {
+  background-color: #ABAB90;
+}
+li.a1:active{
+  background-color:#E4E4E4;
+}
+  
